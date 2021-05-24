@@ -1,0 +1,18 @@
+.anime {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+}
+.anime img{
+  object-fit: contain;
+}
+
+.description h1 {
+  font-family: Cambria, 'Times New Roman', serif;
+  text-align: center;
+}
+
+.description p {
+  font-family: 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+  font-size: 1rem;
+}

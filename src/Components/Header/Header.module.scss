@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+.header ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  list-style: none;
+}
+.header ul li a{
+  font-size: 1.4rem;
+  font-weight: bold;
+}

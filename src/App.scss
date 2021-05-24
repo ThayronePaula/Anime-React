@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 50rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.anime-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  list-style: none;
+  gap: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
